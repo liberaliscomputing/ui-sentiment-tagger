@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sentiment Tagger: Easy tag writing for microblogging</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/bulma-0.7.4/css/bulma.min.css" media="screen">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  
+  <body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+    <script type="text/babel">
+      const App = () => {
+        return (
+          <section className="hero is-light is-fullheight">
+            <div className="hero-body">
+              <div className="container">
+                <h1 className="title">Sentiment Tagger</h1>
+                <h2 className="subtitle">This is a simple sentiment tag writer for calling attention to your small thoughts</h2>        
+              </div>
+            </div>
+          </section>
+        );
+      };
+      
+      ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+  </body>
+</html>
